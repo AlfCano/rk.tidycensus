@@ -12,10 +12,7 @@
 		this code was generated using the rkwarddev package.
 	perhaps don't make changes here, but in the rkwarddev script instead!
 	-->
-	<dependencies
-		rkward_min_version="0.7.0"
-		R_min_version="3.5.0"
-	>
+	<dependencies>
 		<package
 			name="tidycensus"
 		/>

@@ -6,7 +6,6 @@ Version: 0.0.1
 Date: 2026-05-18
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
-Depends: R (>= 3.5.0), rkward (>= 0.7.0)
 Suggests: tidycensus, sf, ggplot2, viridis
 Enhances: rkward
 Description: Download microdata from US Census Bureau and plot spatial

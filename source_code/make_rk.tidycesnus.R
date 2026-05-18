@@ -25,7 +25,7 @@ local({
   )
 
   dependencies_node <- rk.XML.dependencies(
-    dependencies = list(R.min = "3.5.0", rkward.min = "0.7.0"),
+    dependencies = list((R.min = "3.5.0")),
     package = list(
       c(name = "tidycensus"),
       c(name = "sf"),

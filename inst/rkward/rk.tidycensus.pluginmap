@@ -1,0 +1,110 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="DownloadUSCensusData"
+	id="DownloadUSCensusData_rkward"
+	po_id="DownloadUSCensusData_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<dependencies
+		rkward_min_version="0.7.0"
+		R_min_version="3.5.0"
+	>
+		<package
+			name="tidycensus"
+		/>
+		<package
+			name="sf"
+		/>
+		<package
+			name="ggplot2"
+		/>
+		<package
+			name="viridis"
+		/>
+	</dependencies>
+	<about
+		name="rk.tidycensus"
+		shortinfo="Download microdata from US Census Bureau and plot spatial data seamlessly."
+		longinfo="Download microdata from US Census Bureau and plot spatial data seamlessly."
+		version="0.0.1"
+		releasedate="2026-05-18"
+		url="https://github.com/AlfCano/rk.tidycensus"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_DwnldUSCnssDtPltTdyCnssMp"
+			label="Plot TidyCensus Map"
+			type="standard"
+			file="plugins/PlotTidyCensusMap.xml"
+		>
+		</component>
+		<component
+			id="cmp_DwnldUSCnssDtDwnldUSCnssD"
+			label="Download US Census Data"
+			type="standard"
+			file="plugins/DownloadUSCensusData.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DwnldUSCnssDtPltTdyCnssMp"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="OfficialStatistics"
+				label="Official Statistics"
+			>
+				<entry
+					component="cmp_DwnldUSCnssDtDwnldUSCnssD"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

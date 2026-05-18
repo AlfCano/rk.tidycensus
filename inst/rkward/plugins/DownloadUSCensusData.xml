@@ -1,0 +1,55 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="DownloadUSCensusData.js" />
+	<help file="DownloadUSCensusData.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Download US Census Data">
+		<tabbook>
+			<tab label="Setup &amp; Source" id="tab_SetupSrc">
+				<column id="clm_iUSCAPIKRD">
+					<input label="US Census API Key (leave empty if stored in .Renviron)" id="inp_apikey" />
+					<dropdown id="drop_dataset" label="Data Source">
+						<option label="American Community Survey (ACS 5-Year)" value="acs5" checked="true" />
+						<option label="American Community Survey (ACS 1-Year)" value="acs1" />
+						<option label="Decennial Census" value="decennial" />
+					</dropdown>
+					<spinbox label="Year" id="spin_year" initial="2022" min="2000" max="2025" />
+				</column>
+			</tab>
+			<tab label="Geography &amp; Variables" id="tab_GgrphyVr">
+				<column id="clm_dGLSCTSFOT">
+					<dropdown id="drop_geo" label="Geography Level">
+						<option label="State" value="state" checked="true" />
+						<option label="County" value="county" />
+						<option label="Tract" value="tract" />
+					</dropdown>
+					<input label="State Filter (Optional, e.g., 'TX' or 'Texas')" id="inp_state" />
+					<input label="County Filter (Optional, e.g., 'Harris')" id="inp_county" />
+					<matrix id="mat_vars" label="Census Variable Codes (e.g., B01003_001)" mode="string" horiz_headers="Variable" />
+				</column>
+			</tab>
+			<tab label="Output" id="tab_Output">
+				<column id="clm_cDSGTRUEFA">
+					<checkbox id="cbox_geom" label="Download Spatial Geometry (sf) ready for mapping" value="TRUE" value_unchecked="FALSE" />
+					<stretch />
+					<saveobject label="Save data as" checkable="true" checked="true" initial="us_census_data" id="save_result" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>

@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.tidycensus 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-05-18 11:00-0600\n"
+"PO-Revision-Date: 2026-05-18 11:00-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "US Census API Key (leave empty if stored in .Renviron)"
+msgstr "Llave API del US Census (dejar en blanco si está en .Renviron)"
+
+msgid "Data Source"
+msgstr "Fuente de Datos"
+
+msgid "American Community Survey (ACS 5-Year)"
+msgstr "American Community Survey (ACS 5-Años)"
+
+msgid "American Community Survey (ACS 1-Year)"
+msgstr "American Community Survey (ACS 1-Año)"
+
+msgid "Decennial Census"
+msgstr "Censo Decenal"
+
+msgid "Year"
+msgstr "Año"
+
+msgid "Geography Level"
+msgstr "Nivel Geográfico"
+
+msgid "State"
+msgstr "Estado (State)"
+
+msgid "County"
+msgstr "Condado (County)"
+
+msgid "Tract"
+msgstr "Tracto Censal (Tract)"
+
+msgid "State Filter (Optional, e.g., 'TX' or 'Texas')"
+msgstr "Filtro de Estado (Opcional, ej. 'TX' o 'Texas')"
+
+msgid "County Filter (Optional, e.g., 'Harris')"
+msgstr "Filtro de Condado (Opcional, ej. 'Harris')"
+
+msgid "Census Variable Codes (e.g., B01003_001)"
+msgstr "Códigos de Variables del Censo (ej. B01003_001)"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Download Spatial Geometry (sf) ready for mapping"
+msgstr "Descargar Geometría Espacial (sf) lista para mapeo"
+
+msgid "Save data as"
+msgstr "Guardar datos como"
+
+msgid "Setup & Source"
+msgstr "Configuración y Fuente"
+
+msgid "Geography & Variables"
+msgstr "Geografía y Variables"
+
+msgid "Output"
+msgstr "Salida"
+
+msgid "Download US Census Data"
+msgstr "Descargar Datos del US Census"
+
+msgid "TidyCensus Object (sf)"
+msgstr "Objeto TidyCensus (sf)"
+
+msgid "Value Column (e.g. estimate)"
+msgstr "Columna de Valor (ej. estimate)"
+
+msgid "Color Palette"
+msgstr "Paleta de Colores"
+
+msgid "Viridis (Default)"
+msgstr "Viridis (Por defecto)"
+
+msgid "Map Title"
+msgstr "Título del Mapa"
+
+msgid "Legend Title (Leave empty for variable name)"
+msgstr "Título de la Leyenda (Dejar vacío para usar el nombre de la variable)"
+
+msgid "Save Plot Object"
+msgstr "Guardar Objeto Gráfico"
+
+msgid "Graphics Export Settings"
+msgstr "Configuración de Exportación de Gráficos"
+
+msgid "Device type"
+msgstr "Tipo de dispositivo"
+
+msgid "Width (px)"
+msgstr "Ancho (px)"
+
+msgid "Height (px)"
+msgstr "Alto (px)"
+
+msgid "Resolution (ppi)"
+msgstr "Resolución (ppi)"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "White"
+msgstr "Blanco"
+
+msgid "Data Input"
+msgstr "Entrada de Datos"
+
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgid "Output & Export"
+msgstr "Salida y Exportación"
+
+msgid "Plot TidyCensus Map"
+msgstr "Graficar Mapa TidyCensus"
+
+msgid "Plots sf objects directly without joining. Ideal for mapped TidyCensus outputs."
+msgstr "Grafica objetos sf directamente sin uniones espaciales. Ideal para salidas geográficas de TidyCensus."

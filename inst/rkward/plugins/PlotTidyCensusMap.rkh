@@ -1,0 +1,55 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_DataInpt" />
+		<setting id="inp_map_obj">
+		</setting>
+		<setting id="inp_val_col">
+		</setting>
+		<caption id="tab_Appearnc" />
+		<setting id="drp_pal">
+		</setting>
+		<setting id="inp_title">
+		</setting>
+		<setting id="inp_leg">
+		</setting>
+		<caption id="tab_OtptExpr" />
+		<caption id="frm_GrphcsES" />
+		<setting id="device_type">
+		</setting>
+		<setting id="dev_width">
+		</setting>
+		<setting id="dev_height">
+		</setting>
+		<setting id="dev_res">
+		</setting>
+		<setting id="dev_bg">
+		</setting>
+		<setting id="save_plot_obj">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

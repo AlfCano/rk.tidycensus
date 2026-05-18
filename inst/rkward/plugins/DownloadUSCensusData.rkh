@@ -1,0 +1,50 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_SetupSrc" />
+		<setting id="inp_apikey">
+		</setting>
+		<setting id="drop_dataset">
+		</setting>
+		<setting id="spin_year">
+		</setting>
+		<caption id="tab_GgrphyVr" />
+		<setting id="drop_geo">
+		</setting>
+		<setting id="inp_state">
+		</setting>
+		<setting id="inp_county">
+		</setting>
+		<setting id="mat_vars">
+		</setting>
+		<caption id="tab_Output" />
+		<setting id="cbox_geom">
+		</setting>
+		<setting id="save_result">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

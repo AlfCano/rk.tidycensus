@@ -1,0 +1,77 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="PlotTidyCensusMap.js" />
+	<help file="PlotTidyCensusMap.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Plot TidyCensus Map">
+		<row id="row_vPITCPITCD">
+			<varselector id="v_sel_plot" />
+			<column id="clm_tPITCPITCD">
+				<text id="txt_PltssITC">
+					Plots sf objects directly without joining. Ideal for mapped TidyCensus outputs.
+				</text>
+				<tabbook>
+					<tab label="Data Input" id="tab_DataInpt">
+						<column id="clm_vrsltTCOVC">
+							<varslot id="inp_map_obj" label="TidyCensus Object (sf)" source="v_sel_plot" classes="sf" required="true" />
+							<varslot id="inp_val_col" label="Value Column (e.g. estimate)" source="v_sel_plot" required="true" />
+							<stretch />
+						</column>
+					</tab>
+					<tab label="Appearance" id="tab_Appearnc">
+						<column id="clm_dCPVDDMAIB">
+							<dropdown id="drp_pal" label="Color Palette">
+								<option label="Viridis (Default)" value="D" checked="true" />
+								<option label="Magma" value="A" />
+								<option label="Inferno" value="B" />
+								<option label="Plasma" value="C" />
+								<option label="Cividis" value="E" />
+							</dropdown>
+							<input label="Map Title" id="inp_title" />
+							<input label="Legend Title (Leave empty for variable name)" id="inp_leg" />
+							<stretch />
+						</column>
+					</tab>
+					<tab label="Output &amp; Export" id="tab_OtptExpr">
+						<column id="clm_fGESGESDPN">
+							<frame label="Graphics Export Settings" id="frm_GrphcsES">
+								<dropdown id="device_type" label="Device type">
+									<option label="PNG" value="PNG" checked="true" />
+									<option label="SVG" value="SVG" />
+								</dropdown>
+								<row id="row_sW12001004">
+									<spinbox label="Width (px)" id="dev_width" initial="1200" min="100" max="4000" />
+									<spinbox label="Height (px)" id="dev_height" initial="1000" min="100" max="4000" />
+								</row>
+								<column id="clm_sR15050600">
+									<spinbox label="Resolution (ppi)" id="dev_res" initial="150" min="50" max="600" />
+									<dropdown id="dev_bg" label="Background">
+										<option label="Transparent" value="transparent" checked="true" />
+										<option label="White" value="white" />
+									</dropdown>
+								</column>
+							</frame>
+							<saveobject label="Save Plot Object" checkable="true" checked="true" initial="p" id="save_plot_obj" />
+							<preview label="Preview" id="prv_Preview" />
+						</column>
+					</tab>
+				</tabbook>
+			</column>
+		</row>
+	</dialog>
+</document>

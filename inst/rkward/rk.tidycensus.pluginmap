@@ -30,7 +30,7 @@
 		name="rk.tidycensus"
 		shortinfo="Download microdata from US Census Bureau and plot spatial data seamlessly."
 		longinfo="Download microdata from US Census Bureau and plot spatial data seamlessly."
-		version="0.0.1"
+		version="0.0.2"
 		releasedate="2026-05-18"
 		url="https://github.com/AlfCano/rk.tidycensus"
 		license="GPL (&gt;= 3)"

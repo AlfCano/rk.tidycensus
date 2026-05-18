@@ -2,7 +2,7 @@ Package: rk.tidycensus
 Type: Package
 Title: Download microdata from US Census Bureau and plot spatial data
         seamlessly.
-Version: 0.0.1
+Version: 0.0.2
 Date: 2026-05-18
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>

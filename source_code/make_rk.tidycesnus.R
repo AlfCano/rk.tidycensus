@@ -17,7 +17,7 @@ local({
     ),
     about = list(
       desc = "Download microdata from US Census Bureau and plot spatial data seamlessly.",
-      version = "0.0.1",
+      version = "0.0.2",
       date = format(Sys.Date(), "%Y-%m-%d"),
       url = "https://github.com/AlfCano/rk.tidycensus",
       license = "GPL (>= 3)"

@@ -1,6 +1,6 @@
 # rk.tidycensus
 
-![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.tidycensus/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.tidycensus/actions/workflows/lintr.yml)
